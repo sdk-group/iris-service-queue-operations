@@ -9,11 +9,11 @@ let tasks = [];
 
 module.exports = {
 	module: require('./queue-operations.js'),
+	name: 'queue-operations',
 	permissions: [],
 	exposed: true,
 	tasks: tasks,
 	events: {
 		group: 'queue-operations',
-		shorthands: events.queue-operations_box
 	}
 };
