@@ -15,5 +15,6 @@ module.exports = {
 	tasks: tasks,
 	events: {
 		group: 'queue-operations',
+		shorthands: events["queue-operations"]
 	}
 };
